@@ -9,6 +9,7 @@ from tensorflow import keras
 assert tf.__version__ >= "2.0"
 
 import numpy as np
+import pandas as pd
 import os
 
 # Now load the dataset, which will re-download the files
@@ -66,12 +67,18 @@ model = keras.models.Sequential([
 model.layers
 model.summary()
 
-keras.utils.plot_model(model, "my_fashion_mnist_model.png", show_shapes=True)
-
 model.compile(loss="sparse_categorical_crossentropy",
               optimizer="sgd",
               metrics=["accuracy"])
 
 history = model.fit(X_train, y_train, epochs=30,
                     validation_data=(X_valid, y_valid))
+
+
+pd.DataFrame(history.history).plot(figsize=(8, 5))
+plt.grid(True)
+plt.gca().set_ylim(0, 1)
+plt.show()
+
+model.evaluate(X_test, y_test)
 
