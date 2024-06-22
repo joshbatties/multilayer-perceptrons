@@ -1,1 +1,1 @@
-# image-classifier
+# multi-layer perceptrons
