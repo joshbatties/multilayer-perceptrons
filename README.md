@@ -40,12 +40,12 @@ neural-network-training/
 ### Classification Model
 The classification model is designed to recognize and categorize images of clothing items from the Fashion MNIST dataset. This model employs a simple feedforward neural network architecture, making it suitable for beginner-level tasks in computer vision.
 
-Input Layer: Accepts grayscale images of size 28x28 pixels.
-Flatten Layer: Converts the 2D image into a 1D array of 784 pixels.
-Dense Layer 1: Contains 300 neurons with ReLU activation, capable of capturing complex patterns in the data.
-Dense Layer 2: Contains 100 neurons with ReLU activation, adding another layer of abstraction.
-Output Layer: Comprises 10 neurons with softmax activation, each representing a class of clothing items (e.g., T-shirt, trousers).
-This model is trained using the sparse_categorical_crossentropy loss function and the Stochastic Gradient Descent (SGD) optimizer.
+- Input Layer: Accepts grayscale images of size 28x28 pixels.
+- Flatten Layer: Converts the 2D image into a 1D array of 784 pixels.
+- Dense Layer 1: Contains 300 neurons with ReLU activation, capable of capturing complex patterns in the data.
+- Dense Layer 2: Contains 100 neurons with ReLU activation, adding another layer of abstraction.
+- Output Layer: Comprises 10 neurons with softmax activation, each representing a class of clothing items (e.g., T-shirt, trousers).
+- This model is trained using the sparse_categorical_crossentropy loss function and the Stochastic Gradient Descent (SGD) optimizer.
 
 ### Regression Model
 The regression model is designed to predict the median house value from various features in the California Housing dataset. It utilizes a straightforward architecture suitable for regression tasks, capturing linear and non-linear relationships in the data.
