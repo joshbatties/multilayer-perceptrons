@@ -1,6 +1,6 @@
 # multi-layer perceptrons
 
-This project provides a comprehensive demonstration of training various neural network models using TensorFlow and Keras. The project includes three models: an image classification model, a regression model, and a wide-and-deep model. Through this project, we will be loading and preprocessing data, designing and implementing neural network models, training these models, and evaluating their performance. Additionally, the project includes visualisation techniques to better understand the training processes and the results. The overall goal is to provide a comprehensive learning experience in neural network training and application using TensorFlow and Keras.
+This project provides a comprehensive demonstration of various neural network models using TensorFlow and Keras. The project includes three models: an image classification model, a regression model, and a wide-and-deep model. Through this project, we will be loading and preprocessing data, designing and implementing neural network models, training these models, and evaluating their performance. Additionally, the project includes visualisation techniques to better understand the training processes and the results. The overall goal is to provide a comprehensive learning experience in neural network training and application using TensorFlow and Keras.
 
 ## Installation
 To set up the project, clone the repository and install the required dependencies using pip.
