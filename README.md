@@ -6,8 +6,8 @@ This project provides a comprehensive demonstration of various neural network mo
 To set up the project, clone the repository and install the required dependencies using pip.
 
 ```bash
-git clone https://github.com/yourusername/neural-network-training.git
-cd neural-network-training
+git clone https://github.com/joshbatties/multilayer-perceptrons.git
+cd multilayer-perceptrons
 pip install -r requirements.txt
 ```
 
